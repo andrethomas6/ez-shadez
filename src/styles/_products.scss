@@ -1,0 +1,70 @@
+/* 
+------------------------------------
+---------- Product Styles ----------
+------------------------------------
+*/
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+  li {
+    flex: 0 1 29rem;
+    height: 47rem;
+    padding: 1rem;
+  }
+}
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  img {
+    max-height: 37rem;
+    max-width: 30rem;
+    width: max-content;
+
+  }
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    font-size: 2rem;
+  }
+
+  div,
+  button {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+@mixin primaryButton () {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f0f0f0;
+  cursor: pointer;
+
+  &:hover {
+    border: 0.1rem #808080 solid;
+  }
+
+  &.primary {
+    background-color: $primaryBtn;
+  }
+}
+
+.button {
+  @include primaryButton();
+}
