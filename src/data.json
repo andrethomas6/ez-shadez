@@ -11,21 +11,21 @@
       "title": "Ray-Ban Clubmaster Classic",
       "description": "Black framed Ray-Ban sunglasses.",
       "price": 195,
-      "type": "unisex",
+      "type": "men",
       "images": "/images/shades2.jpeg"
     },
     {"_id": "shades3",
       "title": "D&G Sunset Aviators",
       "description": "Silver framed sunglasses with mirrored lens.",
       "price": 125,
-      "type": "unisex",
+      "type": "men",
       "images": "/images/shades3.jpeg"
     },
     {"_id": "shades4",
       "title": "D&G Hollywoods",
       "description": "Black and brown framed sunglasses.",
       "price": 110,
-      "type": "women",
+      "type": "ladies",
       "images": "/images/shades4.jpeg"
     },
     {"_id": "shades5",
@@ -39,7 +39,7 @@
       "title": "Ray-Ban Classic Aviators",
       "description": "Gold framed Ray-Ban aviators sunglasses.",
       "price": 230,
-      "type": "unisex",
+      "type": "ladies",
       "images": "/images/shades6.jpeg"
     }
 
