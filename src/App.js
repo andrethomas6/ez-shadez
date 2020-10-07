@@ -18,6 +18,11 @@ class App extends React.Component {
     };
   }
 
+  // Handle Creating an Order
+  createOrder = (order) => {
+    alert("Need to save order for " + order.name);
+  };
+
   // Handle Adding to Cart
   addToCart = (product) => {
     const cartItems = this.state.cartItems.slice();
@@ -42,8 +47,11 @@ class App extends React.Component {
     const cartItems = this.state.cartItems.slice();
     this.setState({
       cartItems: cartItems.filter((item) => item._id !== product._id),
-    })
-    localStorage.setItem("cartItems", JSON.stringify(cartItems.filter((item) => item._id !== product._id)));
+    });
+    localStorage.setItem(
+      "cartItems",
+      JSON.stringify(cartItems.filter((item) => item._id !== product._id))
+    );
   };
 
   // Handle Sorting Function
@@ -105,6 +113,7 @@ class App extends React.Component {
               <Cart
                 cartItems={this.state.cartItems}
                 removeFromCart={this.removeFromCart}
+                createOrder={this.createOrder}
               />
             </div>
           </div>
