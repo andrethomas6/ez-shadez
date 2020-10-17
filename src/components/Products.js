@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Zoom";
+import Zoom from "react-reveal/Zoom";
 
 export default class Products extends Component {
   render() {
     return (
       <div>
-        <Fade bottom cascade>
+        <Zoom bottom cascade>
           <ul className="products">
             {this.props.products.map((product) => {
               return (
@@ -29,7 +29,7 @@ export default class Products extends Component {
               );
             })}
           </ul>
-        </Fade>
+        </Zoom>
       </div>
     );
   }
