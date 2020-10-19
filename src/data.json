@@ -4,42 +4,42 @@
       "title": "Ray-Ban Clubmaster Beach",
       "description": "Brown framed Ray-Ban sunglasses.",
       "price": 220,
-      "type": "unisex",
+      "type": ["men", "women"],
       "images": "/images/shades1.jpeg"
     },
     {"_id": "shades2",
       "title": "Ray-Ban Clubmaster Classic",
       "description": "Black framed Ray-Ban sunglasses.",
       "price": 195,
-      "type": "men",
+      "type": ["men"],
       "images": "/images/shades2.jpeg"
     },
     {"_id": "shades3",
       "title": "D&G Sunset Aviators",
       "description": "Silver framed sunglasses with mirrored lens.",
       "price": 125,
-      "type": "men",
+      "type": ["men"],
       "images": "/images/shades3.jpeg"
     },
     {"_id": "shades4",
       "title": "D&G Hollywoods",
       "description": "Black and brown framed sunglasses.",
       "price": 110,
-      "type": "ladies",
+      "type": ["women"],
       "images": "/images/shades4.jpeg"
     },
     {"_id": "shades5",
       "title": "Oakley Sunsets",
       "description": "Black framed Oakley sunglasses with orange lens.",
       "price": 150,
-      "type": "men",
+      "type": ["men"],
       "images": "/images/shades5.jpeg"
     },
     {"_id": "shades6",
       "title": "Ray-Ban Classic Aviators",
       "description": "Gold framed Ray-Ban aviators sunglasses.",
       "price": 230,
-      "type": "ladies",
+      "type": ["women"],
       "images": "/images/shades6.jpeg"
     }
 

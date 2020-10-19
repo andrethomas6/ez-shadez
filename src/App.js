@@ -80,7 +80,6 @@ class App extends React.Component {
         type: event.target.value,
         products: data.products.filter(
           (product) =>
-            product.type === "unisex" ||
             product.type.indexOf(event.target.value) >= 0
         ),
       });
