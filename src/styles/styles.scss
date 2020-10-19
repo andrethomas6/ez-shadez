@@ -3,13 +3,13 @@
 @import "./products";
 @import "./filter";
 @import "./cart";
+@import "./modal";
 
 @mixin flexCenter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 /* 
 ------------------------------------
@@ -93,4 +93,3 @@ footer {
 .sidebar {
   flex: 1 20rem;
 }
-

@@ -30,9 +30,9 @@
     max-height: 37rem;
     max-width: 30rem;
     width: max-content;
-
   }
 }
+
 
 .product-price {
   display: flex;
@@ -49,6 +49,7 @@
     text-align: center;
   }
 }
+
 
 @mixin primaryButton () {
   padding: 1rem;
